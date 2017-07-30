@@ -1,0 +1,24 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha server/**/*.test.js",
+    "debug": "nodemon --exec \"npm test\""
+  },
+  "author": "Teja",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "expect": "^1.20.2",
+    "express": "^4.15.3",
+    "hashids": "^1.1.1",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.2",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.11.4",
+    "supertest": "^3.0.0"
+  }
+}
